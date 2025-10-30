@@ -14,7 +14,7 @@ import Login from "./views/Login.jsx";
 function App() {
 
 return(
-    <Router>
+    <Router basename="/catalogue-system">
 
 
 
@@ -24,7 +24,7 @@ return(
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/employees" element={<Employees />} />
-                <Route path="payments" element={<Payments />} />
+                <Route path="/payments" element={<Payments />} />
                 <Route path="/offices" element={<Offices />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 {/* Add more routes as needed */}
